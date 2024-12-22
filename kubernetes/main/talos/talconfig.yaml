@@ -19,18 +19,12 @@ nodes:
     ipAddress: 172.16.70.104
     installDiskSelector:
       size: "<= 500GB"
-    nameservers:
-      - 1.1.1.1
-      - 8.8.8.8
 
   - hostname: kworker2
     ipAddress: 172.16.70.106
     controlPlane: false
     installDiskSelector:
       size: "<= 500GB"
-    nameservers:
-      - 1.1.1.1
-      - 8.8.8.8
 
 controlPlane:
   # Check https://www.talos.dev/v1.9/talos-guides/network/ingress-firewall/
